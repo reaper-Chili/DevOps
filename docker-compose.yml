@@ -4,7 +4,7 @@ services:
   app:
     environment:
       - ASPNETCORE_URLS=http://+:80
-    image: program2.cs
+    image: my_dotnet
     container_name: my_dotnet_app
     ports:
       - "5010:80"
